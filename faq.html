@@ -1,9 +1,115 @@
-<h2>자주 묻는 질문 (FAQ)</h2>
-<ul>
-    <li><strong>Q: 프리미엄 구독 해지는 어떻게 하나요?</strong><br>
-    A: 앱스토어 또는 플레이스토어의 '구독 관리' 메뉴에서 언제든지 해지 가능합니다.</li>
-    <li><strong>Q: 지도가 보이지 않아요.</strong><br>
-    A: 네트워크 연결 상태를 확인해 주시고, 앱을 완전히 껐다 켜보시기 바랍니다.</li>
-    <li><strong>Q: 데이터가 사라졌어요.</strong><br>
-    A: 로그인하신 계정(이메일/카카오)이 맞는지 확인해 주세요. Supabase를 통해 안전하게 보관됩니다.</li>
-</ul>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도움말 및 FAQ | 여행하나 </title>
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .question {
+            font-weight: bold;
+            font-size: 17px;
+            color: #000;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .answer {
+            font-size: 15px;
+            color: #555;
+            padding-left: 10px;
+            border-left: 3px solid #eee;
+        }
+        .contact-box {
+            margin-top: 50px;
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 13px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>도움말 및 FAQ</h1>
+        <p><strong>요즘말</strong> 서비스를 이용해 주셔서 감사합니다. 자주 묻는 질문을 통해 궁금증을 빠르게 해결하실 수 있습니다.</p>
+
+        <h2>💳 구독 및 결제</h2>
+        <div class="faq-item">
+            <span class="question">Q: 프리미엄 멤버십은 어떤 혜택이 있나요?</span>
+            <div class="answer">A: 프리미엄 멤버십 이용 시 광고 제거, 무제한 사진 업로드, 특별한 여행 지도 테마 등 모든 기능을 제약 없이 이용하실 수 있습니다.</div>
+        </div>
+        <div class="faq-item">
+            <span class="question">Q: 구독 해지는 어떻게 하나요?</span>
+            <div class="answer">A: 결제는 스토어를 통해 관리됩니다. 아이폰은 [설정 > Apple ID > 구독], 안드로이드는 [Play 스토어 > 메뉴 > 결제 및 정기 결제]에서 언제든지 해지하실 수 있습니다.</div>
+        </div>
+
+        <h2>📍 서비스 이용 및 지도</h2>
+        <div class="faq-item">
+            <span class="question">Q: 지도가 화면에 나타나지 않아요.</span>
+            <div class="answer">A: 네트워크 연결 상태를 확인해 주세요. 지속적으로 문제가 발생할 경우, 앱 설정에서 캐시를 삭제하거나 앱을 완전히 종료 후 다시 실행해 주시기 바랍니다.</div>
+        </div>
+        <div class="faq-item">
+            <span class="question">Q: 여행 기록이 사라졌어요.</span>
+            <div class="answer">A: 기존에 로그인하셨던 계정(이메일 또는 카카오)으로 로그인하셨는지 확인해 주세요. 로그아웃 상태이거나 다른 계정으로 로그인한 경우 기록이 보이지 않을 수 있습니다.</div>
+        </div>
+
+        <h2>👤 계정 관련</h2>
+        <div class="faq-item">
+            <span class="question">Q: 회원 탈퇴는 어떻게 하나요?</span>
+            <div class="answer">A: 앱 내 [설정 > 계정 관리] 메뉴에서 탈퇴를 진행하실 수 있습니다. 탈퇴 시 모든 여행 기록은 즉시 파기되며 복구가 불가능하니 주의해 주세요.</div>
+        </div>
+
+        <div class="contact-box">
+            <strong>위의 내용으로 해결되지 않으셨나요?</strong>
+            <p>아래 이메일로 문의해 주시면 영업일 기준 24시간 이내에 답변해 드리겠습니다.</p>
+            <p>📧 이메일: <strong>hanajungjun@gmail.com</strong></p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 여행하나 All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
